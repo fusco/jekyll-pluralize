@@ -9,6 +9,8 @@ module Jekyll
       analyzed_words(args[0], args[1], args[2]) if args[0].numeric?
     end
 
+    private
+
     def analyzed_words(number, singular, plural)
       if plural.nil?
         plural_undefined(number, singular)
