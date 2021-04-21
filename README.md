@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/fusco/jekyll-pluralize.svg?token=3MyQnqkrgpzDsKfyWtLB&branch=main)](https://travis-ci.com/fusco/jekyll-pluralize)
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-pluralize.svg)](https://badge.fury.io/rb/jekyll-pluralize)
 A plugin to make an simple pluralize with Jekyll.
 
 ## installation
