@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'liquid filter which converts string with pluralize.'
   spec.homepage      = 'https://github.com/fusco/jekyll-pluralize'
   spec.license       = 'MIT'
-  spec.files         = [*Dir['lib/**/*.rb'], 'README.md', 'LICENSE.md']
+  spec.files         = [*Dir['lib/**/*.rb'], 'README.md', 'LICENSE.md', 'CHANGELOG.md']
   spec.test_files    = [*Dir['spec/*.rb']]
   spec.require_paths = ['lib']
 
