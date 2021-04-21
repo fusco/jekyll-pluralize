@@ -2,7 +2,6 @@
 
 require 'spec_helper'
 
-
 describe(Jekyll::Pluralize) do
   let(:output) do
     pluralize(number, word, words)

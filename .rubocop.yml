@@ -1,14 +1,9 @@
 AllCops:
-  TargetRubyVersion: 3.0
-  NewCops: enable
-  Exclude:
-    - "*.gemspec"
-    - "gemfiles/*"
-    - "vendor/**/*"
-    - Rakefile
-    - Gemfile
+  TargetRubyVersion: 2.7
+
 require:
   - rubocop-performance
+
 
 Metrics/MethodLength:
   Enabled: false
@@ -22,13 +17,9 @@ Naming/FileName:
 
 Layout/LineLength:
   Enabled: false
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: true
 
-Lint/RaiseException:
-  Enabled: true
-Lint/StructNewOverride:
-  Enabled: true
+Performance/RegexpMatch:
+  Enabled: false
 
 Style/WordArray:
   Enabled: false
@@ -38,5 +29,5 @@ Style/HashTransformKeys:
   Enabled: true
 Style/HashTransformValues:
   Enabled: true
-Style/ExponentialNotation:
-  Enabled: true
+Style/RedundantSelf:
+  Enabled: false
